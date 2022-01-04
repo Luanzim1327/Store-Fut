@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Cabin:ital@1&family=Fira+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Bakbak One", cursive;
+  font-family: "Cabin", sans-serif;
+  font-family: "Fira Sans", sans-serif;
+}
+
+header {
+  background-color: #0d2b53;
+  padding: 15px;
+}
+header h2 {
+  margin-left: 30px;
+}
+header h2 a {
+  text-decoration: none;
+  color: white;
+}
+nav {
+  display: flex;
+}
+nav h1 {
+  margin-left: 20px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+}
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 18px;
+  height: 100%;
+}
+li a:hover {
+  transition: 0.3s;
+  background-color: #154481;
+}
+li {
+  list-style: none;
+  letter-spacing: 1px;
+}
+.link-whats {
+  margin-left: 400px;
+  border: 2px solid #ffffff;
+  border-radius: 12px;
+  padding: 5px;
+  letter-spacing: 0px;
+}
+.link-whats:hover {
+  transition: 0.3s;
+  background-color: #56f673;
+  color: white;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  background-image: url("./neymar__above.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+section p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-left: 600px;
+  color: white;
+  line-height: 60px;
+}
+
+#container {
+  padding: 50px;
+}
+.title-container {
+  width: 50%;
+  margin: auto;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 40px;
+  color: white;
+  box-shadow: inset 0 0 0.1em #000000, 0 0 0.4em;
+  background-color: #154481;
+}
+img {
+  width: 280px;
+  height: 280px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+}
+.prop-img {
+  text-align: center;
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  background-color: white;
+}
+.prop-img:hover {
+  transition: 0.3s;
+  background-color: rgba(238, 238, 238, 0.993);
+  box-shadow: inset 0 0 0.1em rgba(243, 243, 243, 0.993), 0 0 0.4em;
+}
+.prop-img h2 {
+  color: black;
+  font-weight: none;
+  font-size: 20px;
+}
+.prop-img h2,
+p {
+  margin-bottom: 12px;
+}
+.prop-img p {
+  font-weight: bold;
+}
+.prop-img a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+.prop-img a:hover {
+  transition: 0.3s;
+  background-color: #154481;
+  color: white;
+}
+.content-2 {
+  display: flex;
+  justify-content: center;
+}
+.more {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  margin-top: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+}
+.more:hover {
+  transition: 0.3s;
+  background-color: #154481;
+  color: white;
+}
+
+#about {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+  background-color: #f60030;
+}
+#about img {
+  width: 50%;
+  height: 100%;
+}
+.about-content {
+  color: white;
+  width: 50%;
+  margin-left: 20px;
+  padding: 5px;
+}
+.about-content h1,
+p {
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+#social-media {
+  display: flex;
+  align-items: center;
+  background-color: #0d2b53;
+}
+.media-content {
+  color: white;
+  margin-left: 20px;
+  padding: 5px;
+  width: 50%;
+}
+#social-media img {
+  width: 50%;
+  height: 100%;
+}
+.media-insta {
+  text-decoration: none;
+  color: white;
+  border-bottom: 0.5px black solid;
+  border-right: 0.5px black solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+.media-insta:hover {
+  transition: 0.3s;
+  background-color: pink;
+  color: white;
+}
+
+.rodape {
+  margin-top: 150px;
+  padding: 20px;
+  background-color: #262626;
+  color: #c1c1b4;
+}
+.rodape a:hover {
+  background-color: #262626;
+}
+.rodape li {
+  margin: auto;
+}
+.rodape p {
+  text-align: center;
+}
